@@ -13,4 +13,5 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   get "/pets" => "pets#index"
+  post "/pets" => "pets#create"
 end
